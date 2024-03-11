@@ -1,0 +1,63 @@
+body {
+    font-family: roboto, sans-serif;
+    
+}
+
+.navbar {
+    background-color: rgb(243, 71, 71);
+}
+
+#cabecalho.nav .nav-link.active {
+    background-color: antiquewhite;
+    color:rgb(243, 71, 71);
+}
+
+#cabecalho.nav .nav-link,
+.navbar-brand,
+.navbar-brand-brand:hover,
+.nav-cardapio .nav-link.active:hover{
+    color:antiquewhite;
+}
+    
+.navbar-toggler {
+    background-color: aliceblue;
+}
+
+.section-title {
+    font-family: "Dancing Script", cursive;
+    font-size: 40px;
+    font-weight:bolder;   /*aqui modifiquei a fonte, tamanho e coloquei como negrito*/
+}
+
+#sobre-o-restaurante, #cardapio{
+    background-color: rgb(247, 209, 209);;
+}
+
+.text-colored {
+    color: rgb(243, 71, 71);
+}
+
+.nav-cardapio .nav-link.active,
+#fale-conosco button {
+    background-color: rgb(243, 71, 71);
+    color:antiquewhite 
+}
+
+.nav-cardapio .nav-link:hover {
+    color: rgb(243, 71, 71);
+}
+
+.social-links li {
+list-style: none;
+display:inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+    @media (max-width: 767px) {
+        .carousel-item img {
+            height: 280px
+        }
+    }
